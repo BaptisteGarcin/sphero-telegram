@@ -76,7 +76,7 @@ bot.on('message', (msg) => {
                 setTimeout(
                     function() {
                         resolve();
-                    }, 600);
+                    }, 300);
             });
 
             p1.then(function () {
